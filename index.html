@@ -11,13 +11,74 @@
 	<header>
 		<nav id="navbar">
 			<ul>
-				<li><a href="#">
-					<button id="btn-icon-container"><span id="btn-icon"><i class="fa fa-trello" aria-hidden="true"></i> Tableros</span></button></li>
-				</a>
-			</ul>			
+				<li>
+					<a href="#">
+						<button id="btn-icon-container">
+							<span id="btn-icon">
+								<i class="fa fa-trello" aria-hidden="true"></i> Tableros
+							</span>
+						</button>
+					</a>
+				</li>
+					
+				<li>
+					<input id="search" type="text" placeholder="">
+						<span>
+							<i class="fa fa-search" aria-hidden="true"></i>
+						</span>
+				</li>
+				<li id="logo">
+					<a href="#">
+						<img src="assets/img/trello-logo-blue.png">
+					</a>
+				</li>	
+				<li id="right-menu">
+					<a href="#">
+						<button id="btn-plus">
+							<span>
+								<i class="fa fa-plus" aria-hidden="true"></i>
+							</span>
+						</button>	
+					</a>
+				</li>
+				<li id="right-menu">
+					<a href="#">
+						<button id="btn-info">
+							<span>
+								<i class="fa fa-info-circle" aria-hidden="true"></i>
+							</span>
+						</button>
+					</a>
+				</li>
+				<li id="right-menu">
+					<a href="#">
+						<button id="btn-bell">
+							<span>
+								<i class="fa fa-bell-o" aria-hidden="true"></i>
+							</span>
+						</button>
+					</a>
+				</li>			
+			</ul>
+	
 		</nav>
 	</header>
+	<section>
+	<div id="contenedor-texto-ingresado">
+			<form name="texto-ingresado">
+			<!-- area de texto -->
+				<textarea id="txt" name="name" rows="4" cols="70" placeholder="¿Qué está pasando?" contenteditable="true">
+				</textarea>
+			</form>
+		</div>
+
+	<!-- div contenedor de la lista -->
+		<div id="cont-list"></div>
+	</section>
 
 	<script src="assets/js/app.js"></script>
 </body>
 </html>
+
+
+

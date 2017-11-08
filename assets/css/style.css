@@ -25,7 +25,7 @@ a {
 
 
 header {
-  background-color: #5DCDF7;
+  background-color: rgb(2, 106, 167);
   overflow: hidden;
   padding: 5px 8px;
   z-index: 10;
@@ -38,28 +38,127 @@ header {
 
 #btn-icon-container {
 	border: none;
-	background-color: ##E8E8E8;
+	background-color: rgb(103, 166, 202);
 	margin-left: 10px;
 	height: 30px;
 }
 
-button 
+#btn-icon-container:hover {
+	cursor: pointer;
+	background-color: rgb(53, 136, 185);
+}
 
-input[type=text].header-search-input {
-    background-color: rgba(255,255,255,.3);
-    border-radius: 3px;
-    border: none;
-    color: rgba(255,255,255,.5);
-    float: left;
-    font-size: 13px;
-    height: 30px;
-    margin: 0;
-    min-height: 30px;
-    padding-right: 30px;
-    padding-left: 8px;
-    line-height: 19px;
-    -webkit-transition: width 150ms;
-    transition: width 150ms;
+input {
+	background-color: rgb(103, 166, 202);
+	margin-left: 135px;
+	border: none;
+	margin-top: -30px;
+    position: absolute;
     width: 180px;
-    z-index: 1;
+    height: 30px;
+    color: #fff;
+	font-family: Helvetica;
+
+}
+
+.fa-search:before {
+    content: "\f002";
+    margin-left: 295px;
+    margin-top: -37px;
+    position: absolute;
+    color: #fff;
+}
+
+input:hover{
+	cursor: pointer;
+	background-color: rgb(53, 136, 185);
+}
+
+#logo img{
+	position: fixed;
+	width: 7%;
+	margin-left: 600px;
+    margin-top: -50px;
+}
+
+#logo img:hover{
+	background-color: #fff; 
+}
+
+#right-menu {
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.fa-plus {
+	position: fixed;
+    content: "\f067";
+    margin-left: 1110px;
+    display: inline-block;
+    margin-top: -90px;
+    color: #fff;
+    font-size: 16px;
+}
+
+#btn-plus .fa-plus{
+	border: none;
+	background-color: rgb(103, 166, 202);
+	cursor: pointer;
+	width: 30px;
+	height: 20px;
+	padding: 5px;
+} 
+
+#btn-plus .fa-plus:hover {
+	cursor: pointer;
+	background-color: rgb(53, 136, 185);
+}
+
+.fa-info-circle {
+	position: fixed;
+    content: "\f067";
+    margin-left: 1160px;
+    display: inline-block;
+    margin-top: -90px;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+#btn-info .fa-info-circle {
+	border: none;
+	background-color: rgb(103, 166, 202);
+	cursor: pointer;
+	width: 30px;
+	height: 20px;
+	padding: 5px;
+}
+
+#btn-info .fa-info-circle:hover {
+	cursor: pointer;
+	background-color: rgb(53, 136, 185);
+}
+
+.fa-bell-o {
+	position: fixed;
+    content: "\f067";
+    margin-left: 1210px;
+    display: inline-block;
+    margin-top: -90px;
+    color: #fff;
+    font-size: 16px;
+}
+
+#btn-bell .fa-bell-o {
+	border: none;
+	background-color: rgb(103, 166, 202);
+	cursor: pointer;
+	width: 30px;
+	height: 20px;
+	padding: 5px;
+}
+
+#btn-bell .fa-bell-o:hover {
+	cursor: pointer;
+	background-color: rgb(53, 136, 185);
 }
