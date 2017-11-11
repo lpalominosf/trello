@@ -5,7 +5,3 @@
 
 
 
-var message = getElementById(txt);
-function () {
-	
-}

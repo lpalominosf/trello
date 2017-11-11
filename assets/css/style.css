@@ -93,7 +93,7 @@ input:hover{
 .fa-plus {
 	position: fixed;
     content: "\f067";
-    margin-left: 1110px;
+    margin-left: 1000px;
     display: inline-block;
     margin-top: -90px;
     color: #fff;
@@ -117,7 +117,7 @@ input:hover{
 .fa-info-circle {
 	position: fixed;
     content: "\f067";
-    margin-left: 1160px;
+    margin-left: 1050px;
     display: inline-block;
     margin-top: -90px;
     color: #fff;
@@ -142,7 +142,7 @@ input:hover{
 .fa-bell-o {
 	position: fixed;
     content: "\f067";
-    margin-left: 1210px;
+    margin-left: 1100px;
     display: inline-block;
     margin-top: -90px;
     color: #fff;
@@ -162,3 +162,39 @@ input:hover{
 	cursor: pointer;
 	background-color: rgb(53, 136, 185);
 }
+
+
+#listas {
+	background-color: rgb(29, 141, 194);
+	width: 100%;
+	height: 700px;
+}
+
+#user img {
+	position: fixed;
+	height: 30px;
+    width: 30px;
+    border-radius: 25px;
+    margin-left: 1170px;
+    margin-top: -95px;
+} 
+
+#tablero {
+	width: 267px;
+	height: 40px;
+	background-color: rgb(103, 166, 202);
+	color: #5A5959;
+	position: fixed;
+	margin-top: 100px;
+	margin-left: 10px;
+	font-family: Helvetica;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+#tablero:hover {
+	cursor: pointer;
+	background-color: rgb(53, 136, 185);
+
+} 
