@@ -71,11 +71,21 @@
 	
 		</nav>
 	</header>
+
 	<section id="listas">
-		<div id="tablero">
-			<p id="añadir">Añadir una lista...</p>
-		</div>
+		<div id="big-container">
+			<div id="tablero">Añadir una lista...</div>
+				<form id="input-container" class="" action="javascript:void(0)">
+					<input type="text" id="text-from-list" placeholder="">
+					<button id="boton-agregar" type="button" name="boton">Guardar</button>
+				</form>
+		</div>	
+	<!-- div vacio que contendra las listas guardadas -->
+		<div id="list-container"></div>
+
 	</section>
+
+
 
 	<script src="assets/js/app.js"></script>
 </body>

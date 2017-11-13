@@ -187,7 +187,10 @@ input:hover{
 	position: fixed;
 	margin-top: 100px;
 	margin-left: 10px;
-
+	font-family: Helvetica;
+	font-size: 14px;
+	font-weight: bold;
+	margin-right: 10px;
 }
 
 
@@ -196,10 +199,3 @@ input:hover{
 	background-color: rgb(53, 136, 185);
 
 } 
-
-#añadir{
-	font-family: Helvetica;
-	font-size: 14px;
-	font-weight: bold;
-	margin-right: 10px;
-}
