@@ -2,18 +2,26 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<!-- se supone que esto deberia hacer que se vea en todos los navegadores -->
 	<meta name = "viewport" content="width=device-width">
+	<!-- titulo -->
 	<title>Tablero reto de código | Trello</title>
+	<!-- icono de trello, en la pestaña -->
 	<link rel="shortcut icon" href="assets/img/trello1600.png">
+	<!-- enlazado font awesoma-->
 	<link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!-- enlazado css -->
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 	<header>
+		<!-- barra de navegacion -->
 		<nav id="navbar">
+			<!-- todo ira dentro de una lista desordenada -->
 			<ul>
 				<li>
 					<a href="#">
+						<!-- los inclui dentro de un boton para que se puedan clickear -->
 						<button id="btn-icon-container">
 							<span id="btn-icon">
 								<i class="fa fa-trello" aria-hidden="true"></i> Tableros
@@ -28,6 +36,7 @@
 							<i class="fa fa-search" aria-hidden="true"></i>
 						</span>
 				</li>
+				<!-- imagen del logo de Trello -->
 				<li id="logo">
 					<a href="#">
 						<img src="assets/img/trello-logo-blue.png">
@@ -63,6 +72,7 @@
 				<li id="user">
 					<a href="#">
 						<span>
+							<!-- imagen de usuario -->
 							<img src="assets/img/23316767_890940421057710_3336377762503930079_n.jpg" alt="user image">
 						</span>
 					</a>
@@ -71,9 +81,10 @@
 	
 		</nav>
 	</header>
-
+	<!-- seccion que guarda las listas -->
 	<section id="listas">
 		<div id="big-container">
+			<!-- tablero -->
 			<div id="tablero">Añadir una lista...</div>
 				<form id="input-container" class="" action="javascript:void(0)">
 					<input type="text" id="text-from-list" placeholder="">

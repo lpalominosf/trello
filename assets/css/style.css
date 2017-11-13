@@ -1,17 +1,23 @@
+/*selecciona todo el ancho y el margen de la pagina para que
+no queden espacios en blanco*/
 * {
 	padding: 0;
 	margin: 0;
 }
 
+/*decoracion de los links*/
+
 a {
 	text-decoration: none;
 }
 
+/*barra de navegacion*/
 #navbar {
 	height: 40px;
 	width: 100%;
 }
 
+/*corresponde a los iconos*/
 #btn-icon {
 	color: #fff;
 	margin-left: 20px;
@@ -23,7 +29,7 @@ a {
 	
 }
 
-
+/*fondo y estilos del header*/
 header {
   background-color: rgb(2, 106, 167);
   overflow: hidden;
@@ -35,19 +41,19 @@ header {
   top: 0;
   height: 30px;
 }
-
+/*contenedor de los iconos*/
 #btn-icon-container {
 	border: none;
 	background-color: rgb(103, 166, 202);
 	margin-left: 10px;
 	height: 30px;
 }
-
+/*hover de los iconos*/
 #btn-icon-container:hover {
 	cursor: pointer;
 	background-color: rgb(53, 136, 185);
 }
-
+/*input de la barra de busqueda*/
 input {
 	background-color: rgb(103, 166, 202);
 	margin-left: 135px;
@@ -60,7 +66,7 @@ input {
 	font-family: Helvetica;
 
 }
-
+/*lupa*/
 .fa-search:before {
     content: "\f002";
     margin-left: 295px;
@@ -68,23 +74,23 @@ input {
     position: absolute;
     color: #fff;
 }
-
+/*hover de la barra de input o busqueda*/
 input:hover{
 	cursor: pointer;
 	background-color: rgb(53, 136, 185);
 }
-
+/*estilo de la imagen del logo*/
 #logo img{
 	position: fixed;
 	width: 7%;
 	margin-left: 600px;
     margin-top: -50px;
 }
-
+/*hover de la imagen del logo*/
 #logo img:hover{
 	background-color: #fff; 
 }
-
+/*estilos del menu e iconos que van a la derecha*/
 #right-menu {
 	display: inline-block;
 	margin-top: 10px;
@@ -163,13 +169,13 @@ input:hover{
 	background-color: rgb(53, 136, 185);
 }
 
-
+/*estilos del container de listas*/
 #listas {
 	background-color: rgb(29, 141, 194);
 	width: 100%;
 	height: 700px;
 }
-
+/*imagen del usuario*/
 #user img {
 	position: fixed;
 	height: 30px;
@@ -178,7 +184,7 @@ input:hover{
     margin-left: 1170px;
     margin-top: -95px;
 } 
-
+/*id tablero*/
 #tablero {
 	width: 267px;
 	height: 40px;
@@ -193,7 +199,7 @@ input:hover{
 	margin-right: 10px;
 }
 
-
+/*hover del tablero*/
 #tablero:hover {
 	cursor: pointer;
 	background-color: rgb(53, 136, 185);
